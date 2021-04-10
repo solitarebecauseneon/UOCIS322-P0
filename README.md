@@ -27,6 +27,12 @@ In order to access your GitHub repos and commit changes from the server,
 make sure you set up an SSH key first. 
 [Tutorial](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
+When you're done, use the following command to add the key (do this every time you SSH into the server):
+```
+ssh-add path/to/.ssh/ssh_filename
+```
+If you're doing this locally (on your own device and not testium), and you're not using Linux, please pay attention to the Tutorial link above.
+
 ## Instructions
 
 - Start by forking this repository on
